@@ -38,7 +38,7 @@ const StripeButton = () => {
       <StripeCheckout
         amount={stripePrice}
         label="Add Funds"
-        name="Manges kai paizoun bala"
+        name="Payment"
         description={`Your total is ${price}`}
         panelLabel={"Add Funds"}
         token={onToken}
